@@ -42,7 +42,7 @@ export default function Home() {
         data={list}
         keyExtractor={(item) => String(item.id)}
         showsVerticalScrollIndicator={false}
-        renderItem={({item})=><Text><Moviments data={item}/></Text>}
+        renderItem={({item})=><Moviments data={item}/>}
       />
     </View>
   );
